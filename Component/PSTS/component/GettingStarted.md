@@ -1,29 +1,10 @@
-# Material Pager Sliding Tab Strip for Xamarin.Android
+# Getting Started with Pager Sliding Tab Strip
 
-This library has now been deprecated by the new Android Support Design Library. Please see the full component for a sample: https://components.xamarin.com/view/xamandroidsupportdesign
-
-Interactive paging indicator widget, compatible with the `ViewPager` from the
-Android Support Library.
-
-**This library requires Support v7 AppCompat Version 23**
-
-**Must set Compile with API 23 in VS or XS**
-
-**You must add Mono.Android.Export.dll to your References**
-
-Build status: [![Build status](https://ci.appveyor.com/api/projects/status/wso3djfo5c8lwj7c/branch/master?svg=true)](https://ci.appveyor.com/project/JamesMontemagno/pagerslidingtabstrip-for-xamarin-android/branch/master)
-
-![PagerSlidingTabStrip Sample Material](https://raw.githubusercontent.com/jamesmontemagno/PagerSlidingTabStrip-for-Xamarin.Android/master/art/material_tabs.gif)
-
-Ported from: https://github.com/jpardogo/PagerSlidingTabStrip
-
-# Usage
+**This library requires AppCompat v21+**
 
 *For a working implementation of this project see the `Sample/` folder.*
 
-  1. Download the NuGet Package: https://www.nuget.org/packages/Refractored.PagerSlidingTabStrip/
-
-  Or add the library as a project.
+  1. Download Component
 
   2. Include the PagerSlidingTabStrip widget in your layout. This should usually be placed
      above the `ViewPager` it represents.
@@ -89,34 +70,3 @@ Custom attr:
 * `pstsPaddingMiddle` If true, the tabs start at the middle of the view (Like Newsstand google app).
 
 *Almost all attributes have their respective getters and setters to change them at runtime* , open an issue if you miss any.
-
-# Ported By
-
- * [@JamesMontemagno] (http://twitter.com/jamesmontemagno)
-
-# Developed By
-
- * Andreas Stuetz - <andreas.stuetz@gmail.com>
- * Original Repo: https://github.com/jpardogo/PagerSlidingTabStrip
- * Check contributors list there
-
-### Credits
-
- * [Kirill Grouchnikov](https://plus.google.com/108761828584265913206/posts) - Author of [an explanation post on Google+](https://plus.google.com/108761828584265913206/posts/Cwk7joBV3AC)
-
-
-# License
-
-The MIT License (MIT)
-
-Copyright (c) 2015 James Montemagno / Refractored LLC
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
-This is a derivative of Javier Pardo de Santayana Gómez:  https://github.com/jpardogo/PagerSlidingTabStrip
-Which is a derivative of  Andreas Stütz: https://github.com/astuetz/PagerSlidingTabStrip

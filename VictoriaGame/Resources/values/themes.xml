@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+  <style name="Theme.AppCompat.Light.NoActionBar" parent="@style/Theme.AppCompat.Light">
+    <item name="android:windowNoTitle">true</item>
+    <item name="windowActionBar">false</item>
+    <!-- For 2.x version  -->
+  </style>
+  <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="android:windowBackground">@color/background_window</item>
+    <!-- ...and here we setting appcompat’s color theming attrs -->
+    <item name="android:colorPrimary">#689F38</item>
+    <item name="android:colorPrimaryDark">#689F38</item>
+    <item name="android:colorAccent">#689F38</item>
+    <item name="android:textColorPrimary">@android:color/white</item>
+  </style>
+
+  <style name="AppTheme" parent="AppBaseTheme">
+
+  </style>
+
+</resources>

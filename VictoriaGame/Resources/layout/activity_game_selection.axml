@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/game_selection_coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:fitsSystemWindows="true">
+        <com.refractored.PagerSlidingTabStrip
+            android:id="@+id/game_Selection_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:pstsPaddingMiddle="true"
+            app:pstsDividerWidth="1dp"
+            app:pstsDividerPadding="12dp"
+            app:pstsDividerColor="#50FFFFFF"
+            android:textColor="#50FFFFFF"
+            app:pstsTextColorSelected="@android:color/white"
+            app:pstsIndicatorColor="@android:color/white"
+            app:pstsUnderlineColor="@android:color/white" />
+    <!--Change this to true if you want to center items-->
+        <android.support.v4.view.ViewPager
+            android:id="@+id/game_selection_pager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            tools:context=".MainActivity" />
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>
